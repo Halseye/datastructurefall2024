@@ -1,0 +1,54 @@
+Rules:
+Goal is to find the exit to the next floor, there is infinate rooms on each floor. Every floor has stronger monsters
+Every room must contain something.
+Floor Construction:
+Each floor must contain 12+ rooms, Must have 3+ monsters, must have 2+ items.
+Items include: Potions, Shields, Gold
+
+Requirements for this project:
+You have to use correctly, interface, inheritance, abstract class, polymorphism.
+If you program a main class longer than say 5 lines, you will lose half of your grade
+Do your very best to not have if else chains going forever
+Base points for passing: Make a working prototype of game under all requirements
+Your data structure base must be daisy chain connector (code your own version of linked list) (don't use the basic linked list set up)
+If you think you've preformed extra credit, write a seperate documentation labeled extra credit.
+
+
+To make your game work:
+make a run() method who's job is to loop your game actions.
+This is probably the only time we will get to play with Scanner
+Make sure you write enough helper print methods to show common things like 
+    -The Dungeon 
+    -Your Immediate left and right cells
+    -Your stats
+
+Have a player class gold data you need to make the game run
+
+Quaility and fun part:
+After your working prototype, you can progress your game for more points.
+Extra credit ceiling: 100%. 
+Suggestions for this project:
+Write a collection of interesting monsters
+Write a collection of interesting items
+Make the game actually interesting and losable(scale the difficulty well).
+Write a guide for your game. Write a manual for your game.
+
+Nuanced Rules: Exit room is random in the dungeon on each floor somewhere. There is only one exit per floor.
+Item idea: Item that randomly teleports you somewhere in the dungeon.
+New Room Type: Trapped rooms, they subtract stats from your player. They may or may not look other rooms on inspection.
+
+More Naunced rules
+Inventory space (Strictly optional)
+
+
+HOW TO START:
+Test a player object vs monsters 
+    -See pokemon notes
+    -create some monsters
+
+Build a Dungeon with rooms as nodes sand interactableObjects as the data type.
+    -Use Random Numbers to fill up dungeon with monsters, Traps, Treasures, and an Exit
+Write a run() to loop the scanner for user input
+
+Just me things and ideas
+
